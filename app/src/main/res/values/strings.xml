@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AS2-ColetaRoupas</string>
+    <string name="logo_login">logo_login</string>
+    <string name="cab_login">Efetue o Login ou Cadastre-se</string>
+    <string name="dig_senha">Digite sua senha...</string>
+    <string name="dig_email">Digite seu e-mail ou CPF</string>
+    <string name="reset_senha_msg">Esqueceu sua senha?</string>
+    <string name="cadastre_msg">Cadastre-se</string>
+    <string name="login">Login</string>
+    <string name="criar_cadastro">Criar Cadastro</string>
+    <string name="cpf">CPF</string>
+    <string name="informe_seu_e_mail">Informe seu e-mail</string>
+    <string name="crie_uma_senha">Crie uma senha</string>
+    <string name="seu_endere_o">Seu endereço</string>
+    <string name="telefone">Telefone</string>
+    <string name="nome_e_sobrenome">Nome e Sobrenome</string>
+    <string name="mensagem">mensagem</string>
+    <string name="localizacao">localizacao</string>
+    <string name="altera_o">alteração</string>
+</resources>
