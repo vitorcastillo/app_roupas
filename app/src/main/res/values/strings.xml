@@ -17,4 +17,16 @@
     <string name="mensagem">mensagem</string>
     <string name="localizacao">localizacao</string>
     <string name="altera_o">alteração</string>
+    <string name="logo_dados">logo_dados</string>
+    <string name="string_logo_dados" />
+    <string name="string_string_logo_dados">string_string_logo_dados</string>
+    <string name="informa_es_pessoais">Informações Pessoais</string>
+    <string name="nome_usuario">NOME USUARIO</string>
+    <string name="colocar_cpf">COLOCAR CPF</string>
+    <string name="dados_telefone">TELEFONE</string>
+    <string name="dados_endereco">ENDEREÇO</string>
+    <string name="email">EMAIL</string>
+    <string name="senha">SENHA</string>
+    <string name="atualizar_cadastro">atualizar cadastro</string>
+    <string name="deletar_conta">deletar conta</string>
 </resources>

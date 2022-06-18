@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AS2ColetaRoupas">
         <activity
-            android:name=".home"
+            android:name=".EditarDados"
             android:exported="false" />
         <activity
-            android:name=".cadastro"
+            android:name=".HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".login"
+            android:name=".CadastroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

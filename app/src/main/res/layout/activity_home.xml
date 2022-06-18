@@ -4,9 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".home">
+    tools:context=".HomeActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="400dp"
         android:layout_height="80dp"
         android:orientation="horizontal"
@@ -22,25 +38,27 @@
             android:contentDescription="@string/mensagem"
             android:scaleType="fitCenter"
             app:srcCompat="@android:drawable/ic_menu_send"
-            tools:ignore="ImageContrastCheck" />
+            tools:ignore="ImageContrastCheck"
+            tools:srcCompat="@android:drawable/ic_dialog_email" />
 
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/button_home"
             android:layout_width="100dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:contentDescription="@string/localizacao"
             android:scaleType="fitCenter"
-            app:srcCompat="@android:drawable/ic_dialog_map"
+            app:srcCompat="@drawable/casa_home"
             tools:ignore="ImageContrastCheck"
-            tools:srcCompat="@android:drawable/ic_menu_mylocation" />
+            tools:srcCompat="@android:drawable/ic_menu_search" />
 
         <ImageButton
-            android:id="@+id/imageButton5"
+            android:id="@+id/button_hcadastro"
             android:layout_width="100dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:contentDescription="@string/altera_o"
+            android:onClick="alterarCadastro"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/editar_home"
             tools:ignore="ImageContrastCheck"
