@@ -29,4 +29,5 @@
     <string name="senha">SENHA</string>
     <string name="atualizar_cadastro">atualizar cadastro</string>
     <string name="deletar_conta">deletar conta</string>
+    <string name="digite_seu_e_mail">Digite seu e-mail</string>
 </resources>

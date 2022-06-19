@@ -85,4 +85,24 @@ public class UsuarioController {
         db.update(CriaUsuario.TABELA,dados,where,null);
         db.close();
     }
+
+    public Cursor carregaDados(){
+        Cursor cursor;
+        String[] campos =  {usuario.ID,usuario.NOME,usuario.CPF,usuario.TELEFONE,usuario.EMAIL,usuario.SENHA, usuario.ENDERECO};
+        db = usuario.getReadableDatabase();
+        cursor = db.query(CriaUsuario.TABELA, campos, null, null, null, null, null);
+
+        if(cursor!=null){
+            cursor.moveToFirst();
+        }
+        db.close();
+        return cursor;
+    }
+
+    public void deletaRegistro(int id){
+        String where = CriaUsuario.ID + "=" + id;
+        db = usuario.getReadableDatabase();
+        db.delete(CriaUsuario.TABELA,where,null);
+        db.close();
+    }
 }

@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class HomeActivity extends AppCompatActivity {
     RecyclerView recyclerView;
@@ -26,9 +27,9 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void alterarCadastro(View v){
-        Intent intent = new Intent(HomeActivity.this, DadosActivity.class);
-        //Toast.makeText(getApplicationContext(),String.valueOf(id_usuario), Toast.LENGTH_LONG).show();
-        intent.putExtra("id", id_usuario);
+        Intent intent = new Intent(HomeActivity.this, AlterarActivity.class);
+        Toast.makeText(getApplicationContext(),String.valueOf(id_usuario), Toast.LENGTH_LONG).show();
+        intent.putExtra("id", String.valueOf(id_usuario));
         startActivity(intent);
     }
 

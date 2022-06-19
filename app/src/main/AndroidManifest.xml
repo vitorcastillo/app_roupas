@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AS2ColetaRoupas">
         <activity
+            android:name=".AlterarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".teste"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
