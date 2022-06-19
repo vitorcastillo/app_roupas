@@ -37,7 +37,7 @@
             android:layout_weight="1"
             android:contentDescription="@string/mensagem"
             android:scaleType="fitCenter"
-            app:srcCompat="@android:drawable/ic_menu_send"
+            app:srcCompat="@android:drawable/ic_dialog_email"
             tools:ignore="ImageContrastCheck"
             tools:srcCompat="@android:drawable/ic_dialog_email" />
 
@@ -48,7 +48,7 @@
             android:layout_weight="1"
             android:contentDescription="@string/localizacao"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/casa_home"
+            app:srcCompat="@android:drawable/ic_menu_search"
             tools:ignore="ImageContrastCheck"
             tools:srcCompat="@android:drawable/ic_menu_search" />
 
@@ -60,7 +60,7 @@
             android:contentDescription="@string/altera_o"
             android:onClick="alterarCadastro"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/editar_home"
+            app:srcCompat="@android:drawable/ic_menu_edit"
             tools:ignore="ImageContrastCheck"
             tools:srcCompat="@android:drawable/ic_menu_edit" />
 
