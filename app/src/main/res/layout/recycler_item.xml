@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/loja_rec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@android:string/untitled"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/tipo_rec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@android:string/untitled"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/endereco_rec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@android:string/untitled"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/contato_rec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@android:string/untitled"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+</LinearLayout>
